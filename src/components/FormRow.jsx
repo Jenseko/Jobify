@@ -13,6 +13,6 @@ const FormRow = ({ type, name, labelText, defaultValue }) => {
         required
       />
     </div>
-  );
+  ); 
 };
 export default FormRow;
