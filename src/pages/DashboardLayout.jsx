@@ -9,6 +9,7 @@ const DashboardLayout = () => {
   //temp
   const user = { name: "john" };
   const [showSidebar, setShowSidebar] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
   const toggleDarkTheme = () => {
@@ -49,6 +50,6 @@ const DashboardLayout = () => {
     </DashboardContext.Provider>
   );
 };
-// eslint-disable-next-line react-refresh/only-export-components
+
 export const useDashboardContext = () => useContext(DashboardContext);
 export default DashboardLayout;
